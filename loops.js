@@ -5,11 +5,7 @@
 // Hoera!
 // Hoera!
 // ==========================================
-console.log("====================Opdracht 1======================");
 
-for (let i = 0; i < 3; i++) {
-    console.log('HoErA!?');
-}
 
 
 // ==========================================
@@ -20,16 +16,8 @@ for (let i = 0; i < 3; i++) {
 // loop...
 // loop...
 // klaar!
-// ==========================================
-console.log("====================Opdracht 2======================");
+ // ==========================================
 
-for (let j = 0; j < 5; j++) {
-    let log = "loop...";
-    if (j === 4) {
-        log = "klaar...";
-    }
-    console.log(log);
-}
 
 
 // ==========================================
@@ -42,17 +30,9 @@ for (let j = 0; j < 5; j++) {
 // .... etc.
 // 15 is oneven
 
-// Tip: een getal is oneven als je het door 2 deelt en er blijft nog iets over. Een getal is even als je het deelt door 2 en er blijft niets over..(bruh)
+// Tip: een getal is oneven als je het door 2 deelt en er blijft nog iets over. Een getal is even als je het deelt door 2 en er blijft niets over..
 // ==========================================
-console.log("====================Opdracht 3======================");
-for (let k = 0; k < 15; k++) {
-    let remainder = k % 2;
-    if (remainder === 0) {
-        console.log(k + ' is even');
-    } else {
-        console.log(k + ' is oneven');
-    }
-}
+
 
 
 // ==========================================
@@ -70,11 +50,4 @@ for (let k = 0; k < 15; k++) {
 // >> 8
 // >> 9
 // ==========================================
-console.log("====================Opdracht 4======================");
-let preString = '';
-for (let l = 0; l <= 9; l++) {
-    if ([3, 6].includes(l)) {
-        preString = preString + '>';
-    }
-    console.log(preString + l)
-}
+
